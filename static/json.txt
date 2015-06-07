@@ -1,0 +1,29 @@
+max = {
+	"swag":true,
+	"json skill":9001,
+	"hello":function(){
+		alert("hello");
+	},
+	"friends":["james","nico","ari"],
+	"words":{
+		"favorite":"smuggle",
+		"worst":"cancer",
+		"weather":"cloud"
+	}
+}
+
+>max.swag
+true
+
+>max.words.favorite
+"smuggle"
+
+max
+
+Object {swag,json skill, __etc__}
+
+//      /\
+//     /  \
+//      ||
+//      ||
+

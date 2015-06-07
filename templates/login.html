@@ -1,0 +1,34 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="jquery-2.1.4.min.js"></script>
+    <link href="{{url_for('static', filename='proximal.css')}}" rel="stylesheet" />
+    <title>Proximal</title>
+    </head>
+    <body>
+        <div id="navbar">
+            <a href="{{url_for('static', filename='settings.html')}}"><div class="navitem">
+            <img id="settings" src="{{url_for('static', filename='gear.png')}}" /></div></a>
+        <a href="{{url_for('static', filename='map.html')}}"><div class="navitem">Map</div></a>
+        <a href="{{url_for('static', filename='index.html')}}"><div class="navitem">Stream</div></a>
+        </div>
+      
+        <div id="login">
+            <form action="/login" method="POST">
+                Username:<br>
+                <input type="text" name="username" value="">
+                <br>
+                Password:<br>
+                <input type="password" name="password" value="">
+                <br><br>
+                <a href="index.html"><input type="submit"></a>
+            </form>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="{{url_for('static', filename='proximal.css')}}" rel="stylesheet" />
+	<title>Register</title>
+</head>
+<body>
+    <div id="navbar">
+        <a href="{{url_for('static', filename='settings.html')}}"><div class="navitem">
+            <img id="settings" src="{{url_for('static', filename='gear.png')}}" /></div></a>
+        <a href="{{url_for('static', filename='map.html')}}"><div class="navitem">Map</div></a>
+        <a href="{{url_for('static', filename='index.html')}}"><div class="navitem">Stream</div></a>
+    </div>
+    <form action="register" method="POST">
+        Username<br>
+        <input type="text" name="username" placeholder="Username">
+        <br>
+        Password<br>
+        <input type="password" name="password" placeholder="Password">
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>  
+</body>
+</html>

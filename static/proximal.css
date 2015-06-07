@@ -1,0 +1,116 @@
+html, body{
+  padding:0;
+  margin:0;
+  background-color:#FFB266;
+  font-family:sans-serif;
+}
+#navbar{
+ margin:0;
+ height:70px;
+ width:100%;
+ background-color:#c91900;
+ margin: 0 auto;
+}
+.navitem{
+ padding-left:4px;
+ padding-right:4px;
+ float:right;
+ display:inline-block;
+ margin-left:5px;
+ font-size:3em;
+ color:black;
+ height:100%;
+ background-color:#c91900;
+ margin-bottom: 5px;
+ border-bottom-right-radius:10px;
+ border-bottom-left-radius:10px;
+ border-top-left-radius:10px;
+ border-top-right-radius:10px;
+}
+#images{
+ margin:5px auto;
+ width: 95%;
+ margin-bottom: 5px;
+ max-width:650px;
+}
+#settings{
+    height:100%;
+    width:auto;
+}
+.money {
+    width:100%;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    margin:0;
+}
+.subtitle{
+    text-align: center;
+    background-color: #DDCCDD;
+    width:100%;
+    border-bottom-right-radius:20px;
+    border-bottom-left-radius:20px;
+    font-size: larger ;
+    padding-bottom: 15px;
+    color:black;
+}
+.popularity{
+
+}
+.up{
+    text-align:left; 
+    background-color:blue;
+    font-size: xx-large;
+    width: 100px;
+    float:left;
+    border-bottom-right-radius:15px;
+    height:100px;
+}
+.down{
+    text-align:right;
+    background-color:red;
+    font-size: xx-large;
+    width: 100px;
+    float:right;
+    border-bottom-left-radius:15px;
+    height:100px;
+}
+.arrow{
+    height:94%;
+}
+.package {
+    margin-bottom:10px;
+}
+.reload{
+    margin: 0 auto;
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius:40px;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+
+}
+.logout{
+    margin: 0 auto;
+    border-bottom-right-radius:40px;
+    border-bottom-left-radius:40px;
+    border-top-left-radius:40px;
+    border-top-right-radius:40px;
+    font-size: 80px;
+    color: white;
+    background-color: orange;
+    text-align: center;
+}
+#login{
+    margin: 0 auto;
+    padding: 0;
+    width: 500px;
+    text-align: center;
+    font-size: 40px;
+    color:#c91900;
+}
+.boxes{
+    height: 40px;
+    
+}
+.dankmemes{
+
+}

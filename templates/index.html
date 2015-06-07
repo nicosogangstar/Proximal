@@ -1,0 +1,19 @@
+ <html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <script src="{{ url_for('static', filename='jquery-2.1.4.min.js')}}"></script>
+    <script src="{{ url_for('static', filename='proximal.js')}}"></script>
+    <link href="{{url_for('static', filename='proximal.css')}}" rel="stylesheet" />
+    <title>Proximal</title>
+</head>
+<body>
+    <div id="navbar">
+        <a href="{{url_for('static', filename='settings.html')}}"><div class="navitem">
+            <img id="settings" src="{{url_for('static', filename='gear.png')}}" /></div></a>
+        <a href="{{url_for('static', filename='map.html')}}"><div class="navitem">Map</div></a>
+        <a href="{{url_for('static', filename='index.html')}}"><div class="navitem">Stream</div></a>
+ 
+    </div>
+    <div id="images"></div>
+</body>
+</html>
